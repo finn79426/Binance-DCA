@@ -1,0 +1,11 @@
+/**/.DS_Store
+/**/.pytest_cache
+/**/__pycache__/
+/**/.vscode/
+/**/*.out
+/**/*.log
+/**/*.env.*
+/**/uv.lock
+/**/lcov.info
+/**/.coverage
+/**/.ruff_cache/

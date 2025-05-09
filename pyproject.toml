@@ -1,0 +1,23 @@
+[project]
+name = "hello-world-python"
+version = "0.1.0"
+description = "Add your description here"
+readme = "README.md"
+requires-python = ">=3.13"
+dependencies = [
+    "deprecated>=1.2.18",
+]
+
+[dependency-groups]
+dev = [
+    "pytest>=8.3.5",
+    "pytest-aio>=1.9.0",
+    "pytest-cov>=6.1.1",
+    "pytest-pythonpath>=0.7.3",
+]
+
+[tool.coverage.run]
+source = ["src"]
+
+[tool.pytest.ini_options]
+addopts = "--cov --cov-report=lcov:lcov.info"
