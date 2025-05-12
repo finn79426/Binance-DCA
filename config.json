@@ -1,0 +1,10 @@
+{
+    "portfolio": {
+        "BTC": 100,
+        "ETH": 0,
+        "SOL": 0,
+        "LAYER": 0
+    },
+    "quote": "USDT",
+    "amount": 100
+}

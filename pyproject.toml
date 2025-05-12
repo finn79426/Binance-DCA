@@ -6,6 +6,8 @@ readme = "README.md"
 requires-python = ">=3.13"
 dependencies = [
     "deprecated>=1.2.18",
+    "python-binance>=1.0.28",
+    "python-dotenv>=1.1.0",
 ]
 
 [dependency-groups]
@@ -21,3 +23,7 @@ source = ["src"]
 
 [tool.pytest.ini_options]
 addopts = "--cov --cov-report=lcov:lcov.info"
+
+[[tool.mypy.overrides]]
+module = "binance.*"
+ignore_missing_imports = true

@@ -4,7 +4,7 @@
 /**/.vscode/
 /**/*.out
 /**/*.log
-/**/*.env.*
+/**/*.env
 /**/uv.lock
 /**/lcov.info
 /**/.coverage
